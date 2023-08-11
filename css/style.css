@@ -15,8 +15,44 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px; }
-  header h2 {
-    font: 150% sans-serif; }
+  header .section-1, header .section-2 {
+    background-color: #383879;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+  header .section-2 {
+    padding: 10px; }
+
+h1 .index {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', sans-serif; }
+
+.audi {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'EB Garamond', serif; }
+
+.bmw {
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'EB Garamond', serif; }
+
+.nosotros {
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Lobster', cursive; }
+
+ul {
+  text-decoration: none;
+  display: flex;
+  min-height: 70px;
+  justify-content: space-between;
+  align-items: center; }
 
 .logo {
   display: flex;
@@ -41,15 +77,14 @@ p {
 
 .pestaña {
   text-decoration: none;
-  color: black;
   font-weight: 600;
-  padding-right: 10px;
+  padding-right: 60px;
   height: 30px;
   font: 150% sans-serif; }
 
-li a {
+ul li a {
   text-decoration: none;
-  color: #0f0f0f; }
+  color: black; }
 
 footer {
   background-color: #383879;
@@ -61,6 +96,12 @@ footer {
 
 @media (max-width: 700px) {
   header {
+    flex-direction: column; }
+  ul {
+    flex-direction: column; }
+  footer div {
+    flex-direction: column; }
+  h1 {
     flex-direction: column; } }
 
 .logosfo {
@@ -79,12 +120,33 @@ footer {
 .presentacion {
   font: small-caps 100%/200% serif; }
 
-nav {
+h1 {
+  text-align: center;
+  height: 70px;
+  justify-content: space-around;
+  font-family: 'Anton', sans-serif; }
+
+.pestaña1 {
+  display: flex;
+  flex-direction: culumn;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+  padding-right: 60px;
+  height: 30px;
+  font: 150% sans-serif; }
+
+.mug {
   display: flex;
   min-height: 70px;
   justify-content: space-between;
   align-items: center;
-  padding: 10px; }
-
-main {
-  background-color: antiquewhite; }
+  padding: 10px;
+  display: flex;
+  flex-direction: culumn;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #A44C49; }
