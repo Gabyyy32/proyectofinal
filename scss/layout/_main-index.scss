@@ -4,6 +4,7 @@ body{
     background-color: bisque;
 }
 header{
+    @include flex(culumn,wrap,center,center);
     .section-1{
         background-color:rgb(56, 56, 121);
         display: flex;
@@ -18,7 +19,7 @@ header{
         
     }
 
-    
+    @include flex(culumn,wrap,center,center);
     background-color:rgb(56, 56, 121);
     display: flex;
     min-height: 70px;
@@ -27,11 +28,14 @@ header{
     padding: 10px;
  }
     h1{
-
+        text-align: center;
     
     .index{
+        
+        text-align: center;
         font-family: 'Anton', sans-serif;
         font-family: 'Bebas Neue', sans-serif;
+        
 }
     }
     .audi{

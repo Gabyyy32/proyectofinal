@@ -14,14 +14,13 @@ h1{
     height: 30px;
     font: 150% sans-serif;
 } 
-.mug{
+.bmw{
     display: flex;
     min-height: 70px;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     @include flex(culumn,wrap,center,center);    
-    background-color: #A44C49 ;
+    background-color: #5b5863 ;
     $color-text-principal:rgba(177, 49, 49, 0.692);
 }
-
