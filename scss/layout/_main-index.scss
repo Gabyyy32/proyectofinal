@@ -29,6 +29,9 @@ header{
  }
     h1{
         text-align: center;
+        color: rgb(47, 0, 255);
+    
+    
     
     .index{
         
@@ -38,23 +41,21 @@ header{
         
 }
     }
+    
     .audi{
+        text-align: center;
         font-family: 'Anton', sans-serif;
         font-family: 'Bebas Neue', sans-serif;
-        font-family: 'EB Garamond', serif;
     }
     .bmw{
-        font-family: 'Abril Fatface', cursive;
+        text-align: center;
         font-family: 'Anton', sans-serif;
         font-family: 'Bebas Neue', sans-serif;
-        font-family: 'EB Garamond', serif;
     }
     .nosotros{
-        font-family: 'Abril Fatface', cursive;
+        text-align: center;
         font-family: 'Anton', sans-serif;
         font-family: 'Bebas Neue', sans-serif;
-        font-family: 'EB Garamond', serif;
-        font-family: 'Lobster', cursive;
     }
 
     
@@ -91,11 +92,12 @@ p{
     margin:100px 0px;
 }
 .presentacion{
-color: rgb(78, 28, 194);
+    color: rgb(78, 28, 194);
+    text-align: center;
 }
 .pestaña{
     text-decoration: none;
-     
+    
     font-weight: 600;
     padding-right: 60px;
     height: 30px;
@@ -103,7 +105,7 @@ color: rgb(78, 28, 194);
     
 }
 
-ul li a {
+ li a {
     text-decoration: none;
     color: black;
     
@@ -154,4 +156,5 @@ footer{
 }
 .presentacion{
     font:small-caps 100%/200% serif;
+    text-align: center;
 }

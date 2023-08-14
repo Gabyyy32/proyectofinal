@@ -21,7 +21,17 @@ h1{
     align-items: center;
     padding: 10px;
     @include flex(culumn,wrap,center,center);    
-    background-color: #A44C49 ;
+    background-color:rgb(56, 56, 121);;
     $color-text-principal:rgba(177, 49, 49, 0.692);
 }
-
+h2{
+    @include flex(culumn,wrap,center,center);
+    text-align: center; 
+    padding: 160px;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Lobster', cursive;
+}

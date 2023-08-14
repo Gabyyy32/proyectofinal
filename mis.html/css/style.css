@@ -1,7 +1,8 @@
 @charset "UTF-8";
 * {
   margin: 0%;
-  padding: 0%; }
+  padding: 0%;
+  color: #383879; }
 
 body {
   font-family: sans-serif;
@@ -36,29 +37,27 @@ header {
     padding: 10px; }
 
 h1 {
-  text-align: center; }
+  text-align: center;
+  color: aqua; }
   h1 .index {
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-family: 'Bebas Neue', sans-serif; }
 
 .audi {
+  text-align: center;
   font-family: 'Anton', sans-serif;
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'EB Garamond', serif; }
+  font-family: 'Bebas Neue', sans-serif; }
 
 .bmw {
-  font-family: 'Abril Fatface', cursive;
+  text-align: center;
   font-family: 'Anton', sans-serif;
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'EB Garamond', serif; }
+  font-family: 'Bebas Neue', sans-serif; }
 
 .nosotros {
-  font-family: 'Abril Fatface', cursive;
+  text-align: center;
   font-family: 'Anton', sans-serif;
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'EB Garamond', serif;
-  font-family: 'Lobster', cursive; }
+  font-family: 'Bebas Neue', sans-serif; }
 
 ul {
   text-decoration: none;
@@ -95,7 +94,7 @@ p {
   height: 30px;
   font: 150% sans-serif; }
 
-ul li a {
+li a {
   text-decoration: none;
   color: black; }
 
@@ -131,8 +130,9 @@ footer {
     padding: 10px; }
 
 .presentacion {
-  font: small-caps 100%/200% serif; }
-
+  font: small-caps 100%/200% serif;
+  text-align: center; }
+  
 h1 {
   text-align: center;
   height: 70px;
@@ -162,7 +162,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #A44C49; }
+  background-color: #383879; }
 
 h1 {
   text-align: center;
@@ -193,7 +193,18 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #5b5863; }
+  background-color: #383879; }
+  
+h2{
+  text-align: center;
+  padding: 120px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Lobster', cursive;
+}
 
 h1 {
   text-align: center;
@@ -224,4 +235,4 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #5960b8; }
+  background-color: #383879; }

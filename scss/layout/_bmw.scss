@@ -1,3 +1,4 @@
+
 h1{
     text-align: center;
     height: 70px;
@@ -21,6 +22,14 @@ h1{
     align-items: center;
     padding: 10px;
     @include flex(culumn,wrap,center,center);    
-    background-color: #5b5863 ;
+    background-color: rgb(56, 56, 121); 
     $color-text-principal:rgba(177, 49, 49, 0.692);
+}
+.h2mbw{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
 }
